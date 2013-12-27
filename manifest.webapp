@@ -1,0 +1,16 @@
+{
+  "name": "Projeggt",
+  "description": "Incubate ideas with crowdfunding",
+  "version": "0.1.7",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/16x16.png",
+    "128": "/img/128x128.png"
+  },
+  "developer": {
+    "name": "Alberto González",
+    "url": "http://albertogonzalezcatalan.com"
+  },
+  "installs_allowed_from": ["*"],
+  "default_locale": "en"
+}
