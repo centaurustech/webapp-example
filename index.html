@@ -76,7 +76,7 @@
             
             <div data-role="content" >	
                 <div class="content-primary">
-                	<h3 class="ui-title">Projeggt 0.1.7</h3>
+                	<h3 class="ui-title">Projeggt 0.1.8</h3>
 			        <p>Incubate ideas with crowdfunding. Projeggt App to Firefox OS.<br/><br/>
 			        	More at <a href="http://www.projeggt.com" target="_blank">Projeggt.com</a><br/><br/>
 				        &copy; Projeggt 2014 
@@ -109,7 +109,7 @@ $(function () {
 			
 				var fundersAndremaining;
 				if (data[p].remaining == 0){
-					fundersAndremaining = data[p].CountPeople+' funders';
+					fundersAndremaining = data[p].countFunders+' funders';
 				} else {
 					fundersAndremaining = data[p].remaining+' days';
 				}
@@ -146,7 +146,7 @@ $(function () {
 				
 					var fundersAndremaining;
 					if (data[p].remaining == 0){
-						fundersAndremaining = data[p].CountPeople+' funders';
+						fundersAndremaining = data[p].countFunders+' funders';
 					} else {
 						fundersAndremaining = data[p].remaining+' days';
 					}

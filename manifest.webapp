@@ -1,7 +1,7 @@
 {
   "name": "Projeggt",
   "description": "Incubate ideas with crowdfunding",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "launch_path": "/index.html",
   "icons": {
     "16": "/img/16x16.png",
